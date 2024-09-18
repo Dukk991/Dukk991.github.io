@@ -40,11 +40,15 @@
 }
 
 .asci {
-    text-align: center;
-    font-size: 15px;
+    text-align: left;
     background-color: black;
     color: white;
-    border-radius: 5%;
-    height: 300px;
-    width: 50%;
+    text-align: center;
+    font-weight: 1000;
+    width: 40%;
+}
+
+.link {
+    color: black;
+    font-weight: 500;
 }
