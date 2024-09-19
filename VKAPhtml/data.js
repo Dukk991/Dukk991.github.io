@@ -1,0 +1,9 @@
+const langIndex = {
+    fin: {
+
+    },
+
+    en: {
+
+    }
+}
