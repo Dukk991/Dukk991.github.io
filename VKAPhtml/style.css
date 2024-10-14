@@ -37,6 +37,7 @@ body {
     width: 5rem;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
     background-color: lavender;
 }
@@ -61,6 +62,7 @@ body {
     display: flex;
     font-family: system-ui;
     width: 50vh;
+    flex-wrap: wrap;
 }
 .p {
     color: black;
@@ -72,6 +74,19 @@ body {
     display: flex;
     border: 3px solid black;
     width:max-content;
+    box-shadow: 2px 2px 2px black;
+    flex-wrap: wrap;
+}
+
+.beginning_heading {
+    background-color: seagreen;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    flex-wrap: wrap;
 }
 
 table, th, td {
@@ -81,6 +96,7 @@ table, th, td {
     font-family: system-ui;
     font-size: 20px;
     font-weight: 500;
+    flex-wrap: wrap;
 }
 
 .portfolio {
@@ -88,6 +104,7 @@ table, th, td {
     justify-content: space-evenly;
     font-family: system-ui;
     background-color: seagreen;
+    flex-wrap: wrap;
 }
 
 .asci {
@@ -96,5 +113,18 @@ table, th, td {
     color: white;
     font-size: 25px;
     align-items: center;
-    width:fit-content
+    width:fit-content;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    background-color: seagreen;
+    border: 2px solid black;
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    width: 40vh;
+    box-shadow: 2px 2px 2px black;
+    flex-wrap: wrap;
 }
