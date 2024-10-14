@@ -1,4 +1,5 @@
 Olen pyrkinyt sellaiseen aesteettiseen 2000-luvun "rumuuteen"
+Lataa vs code -> lataa Ritwick Deyn live server extensioni -> kloonaa reponi omalle koneellesi -> laita serveri päälle -> kopsaa url chromeen -> katsele sivuani
 
 
 
