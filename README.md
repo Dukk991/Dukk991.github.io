@@ -1,3 +1,8 @@
+Olen pyrkinyt sellaiseen aesteettiseen 2000-luvun "rumuuteen"
+
+
+
+
 HTML 25%
 	1/5: Näkyy .html tiedostoissa / nav tabeissa
 	2/5: -//-
