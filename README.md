@@ -16,9 +16,9 @@ HTML 25%
 CSS 25%
 	1/5: style.css, implementattu .html tiedostoissa / nav tabeissa
 	2/5: -//-, lähinnä hyödyntänyt luokkia
-	3/5: -
+	3/5: flex: wrap:ia on käytetty style.css tiedostossa olevissa luokissa
 	4/5: puolet, style.css
-	5/5: -
+	5/5: Mielestäni sivu ja sivun tabit ovat tasaisia eivätkä ole konfliktissa toistensa kanssa (värit ja formatointi pysyvät yhtenäisenä)
 
 ==========
 
