@@ -1,9 +1,9 @@
 HTML 25%
-	1/5: Näkyy .html tiedostoissa / nav tabeissa #
-	2/5: -//- #
-	3/5: index.js / uglyMedia nav tabi
-	4/5: portfolio.js / portfolio nav tabi, rivit 28 - 80
-	5/5: Näkyy .html tiedostoissa / nav tabeissa
+1/5: Näkyy .html tiedostoissa / nav tabeissa 
+2/5: -//- 
+3/5: index.js / uglyMedia nav tabi
+4/5: portfolio.js / portfolio nav tabi, rivit 28 - 80
+5/5: Näkyy .html tiedostoissa / nav tabeissa
 
 ==========
 
