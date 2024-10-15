@@ -15,7 +15,8 @@
             <a href = "portfolio.html" class = "navStyle"> PORTFOLIO </a>
             <a href = "blog.html" class = "navStyle"> BLOG </a>
             <a href = "contact.html" class = "navStyle"> CONTACT </a>
-            <button onClick = "mysteryButton()" class = "mysteryButton"> ? </button>
+            <a href = "fetch.html" class = "navStyle"> FETCH</a>
+            <button onClick = "mysteryButton(), setTimeout(mysteryButton, 10000)" class = "mysteryButton"> ? </button>
         </nav>
 
         <br>
@@ -28,11 +29,6 @@
 
         <div class = "body2">
             <h2 class = "header2">rock.mp3 <audio controls> <source src = "Street Smart - Quincas Moreira.mp3"></audio> </h2>
-        </div>
-        
-        <br>
-
-        <div class = "body2"">
             <h2 class = "header2">progRock.mp3 <audio controls> <source src = "Progressive Rock - Audionautix.mp3"></audio></h2>
         </div>
         
@@ -40,11 +36,6 @@
         
         <div class = "body2">
             <h2 class = "header2"> 2ndamendment.mp4 <video src = "2ndAmendment.mp4" type = "video/mp4" width = "300" controls loop> </video></h2>
-        </div>
-        
-        <br>
-        
-        <div class = "body2">
             <h2 class = "header2">gandalf.mp4 <video src = "gandalf.mp4" type = "video/mp4" width = "300" controls loop></video> </h2>
         </div>
         <script src = "script.js"></script>
