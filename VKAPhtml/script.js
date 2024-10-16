@@ -34,3 +34,19 @@ async function fetchMonInfo(){
         alert("Error: not a real pokemon name");
     }
 }
+
+function clockUpdate() {
+    
+    const time = new Date();
+
+    const hours = time.getHours().toString().padStart(2, 0);
+    const minutes = time.getMinutes().toString().padStart(2, 0);
+    const seconds = time.getSeconds().toString().padStart(2, 0);
+
+    const digitalClock = `${hours}:${minutes}:${seconds}`;
+
+    document.getElementById("clock").textContent = digitalClock;
+}
+
+clockUpdate();
+setInterval(clockUpdate, 1000);
