@@ -10,25 +10,19 @@
     <body>
         <nav class = "nav">
             <h1> VKAP </h1>
-            <a href = "index.html" class = "navTabs"> uglyMedia </a>
-            <a href = "about.html" class = "navTabs"> ABOUT </a>
-            <a href = "portfolio.html" class = "navTabs"> PORTFOLIO </a>
-            <a href = "blog.html" class = "navTabs"> BLOG </a>
-            <a href = "contact.html" class = "navTabs"> CONTACT </a>
-            <a href = "fetch.html" class = "navTabs"> FETCH</a>
-            <button onClick = "mysteryButton()" class = "mysteryButton"> ? </button>
+            <a href = "index.html" class = "navTabs hover"> MEDIA </a>
+            <a href = "about.html" class = "navTabs hover"> ABOUT </a>
+            <a href = "portfolio.html" class = "navTabs hover"> PORTFOLIO </a>
+            <a href = "blog.html" class = "navTabs hover"> BLOG </a>
+            <a href = "contact.html" class = "navTabs hover"> CONTACT </a>
+            <a href = "fetch.html" class = "navTabs hover"> FETCH</a>
+            <button onClick = "mysteryButton()" class = "mysteryButton hover"> ? </button>
         </nav>
 
         <br>
 
-        <div class = "clockBox">
-            <div id = "clock"> 00:00:00</div>
-        </div>
-
-        <br>
-
         <div class = "body1">
-            <h1 class = "body2">Fetch pokemon info </h1>
+            <h1>Fetch pokemon info </h1>
         </div>
 
         <br>
@@ -37,6 +31,18 @@
         <button onclick="fetchMonInfo()">Fetch</button>
         <br>
         <img src="" alt = "Mon sprite" id = "monSprite" style="display: none"> 
+
+        <div>
+            <nav class = "botNav">
+                <div id = "clock"> 00:00:00</div>
+                <a href = "index.html" class = "navTabs hover"> MEDIA </a>
+                <a href = "about.html" class = "navTabs hover"> ABOUT </a>
+                <a href = "portfolio.html" class = "navTabs hover"> PORTFOLIO </a>
+                <a href = "blog.html" class = "navTabs hover"> BLOG </a>
+                <a href = "contact.html" class = "navTabs hover"> CONTACT </a>
+                <a href = "fetch.html" class = "navTabs hover"> FETCH</a>
+            </nav>
+        </div>
         <script src = "script.js"></script>
     </body>
 </html>

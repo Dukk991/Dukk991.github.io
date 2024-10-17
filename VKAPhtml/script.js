@@ -1,3 +1,18 @@
+const hoverElements = document.querySelectorAll(".hover");
+
+function hoverUnderline(event) {
+    event.target.style.textDecoration = "underline";
+}
+
+function hoverOut(event) {
+    event.target.style.textDecoration = "none";
+}
+
+hoverElements.forEach((element) => {
+    element.addEventListener("mouseover", hoverUnderline);
+    element.addEventListener("mouseout", hoverOut);
+});
+
 function mysteryButton() {
     alert("This button does nothing");
 }

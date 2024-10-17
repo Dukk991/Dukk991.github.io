@@ -30,6 +30,22 @@ table, th, td {
     box-shadow: 2px 2px 2px black;
 }
 
+.botNav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+
+    background-color: seagreen;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
 .navTabs {
     color: black;
     font-family: system-ui;
@@ -52,13 +68,13 @@ table, th, td {
 .body1 {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 
     font-family: system-ui;
     border: 3px solid black;
     box-shadow: 2px 2px 2px black;
     width: 50vh;
     background-color: seagreen;
+    justify-content: space-evenly;
 }
 
 .body2 {
@@ -93,16 +109,17 @@ table, th, td {
 .clockBox {
     display: flex;
     justify-content: right;
-    margin-right: 10%;
-    margin-left: 80%;
     border: 2px solid black;
     background-color: white;
     box-shadow: 2px 2px 2px black;
-    align-items: center;
+    align-items: left;
 }
 
 #clock {
     font-family: system-ui;
     font-size: 50px;
     font-weight: 1;
+    position: fixed;
+    left: 0;
+    margin-left: 1%;
 }
